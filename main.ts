@@ -5,7 +5,7 @@ input.onGesture(Gesture.Shake, function () {
     basic.showIcon(IconNames.SmallSquare)
     basic.showIcon(IconNames.Square)
     basic.showNumber(randint(0, 9))
-    basic.pause(5000)
+    basic.pause(2000)
     basic.clearScreen()
 })
 basic.showString("Hello!")
